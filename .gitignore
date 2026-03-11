@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw data (DO NOT COMMIT)
+data/raw/
+*.gz
+*.sdf
+*.fa
+
+# Docking intermediates
+docking/ligands_pdbqt/
+docking/docking_results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Conda / venv
+conda_envs/
+.env
